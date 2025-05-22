@@ -1,5 +1,5 @@
 import React from "react";
-import home1 from "../assets/home1.gif";
+import home1 from "../assets/home1.jpg";
 export const Banner = () => {
   return (
     <div className="relative w-full h-[786px] overflow-hidden">
