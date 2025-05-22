@@ -9,6 +9,7 @@ import CardTestimonials from "../components/CardTestimonials.jsx";
 import Facilities from "../components/Facilities.jsx";
 import Footer from "../components/Footer.jsx";
 import home4 from "../assets/home4.jpg";
+import home2 from "../assets/home2.jpg";
 const HomePage = () => {
   const { data, isLoading, error } = useGetHomePageQuery();
 
@@ -28,7 +29,7 @@ const HomePage = () => {
       <div className="flex h-[500px] bg-white">
         <div className="flex items-center ">
           <img
-            src="../src/assets/home2.jpg"
+            src={home2}
             alt="GIF Banner"
             className="w-[300px] h-[450px] object-contain"
           />
