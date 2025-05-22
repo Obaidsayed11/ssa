@@ -1,10 +1,10 @@
 import React from "react";
-
+import home1 from "../assets/home1.gif";
 export const Banner = () => {
   return (
     <div className="relative w-full h-[786px] overflow-hidden">
       <img
-        src="../src/assets/home1.gif"
+        src={home1}
         alt="GIF Banner"
         className="w-full h-full object-cover"
       />

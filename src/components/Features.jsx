@@ -1,4 +1,9 @@
 import React from 'react'
+import home5 from '../assets/home5.jpg'
+import home6 from '../assets/home6.jpg'
+import home7 from '../assets/home7.jpg'
+import home8 from '../assets/home8.png'
+import home9 from '../assets/home9.jpg'
 
 const Features = () => {
   return (
@@ -45,12 +50,12 @@ const Features = () => {
 
    <div className="flex ml-52 space-x-4">
   <img
-    src="../src/assets/home5.jpg"
+    src={home5}
     alt="Tennis 1"
     className="w-[40%] h-[450px] rounded-lg object-cover"
   />
   <img
-    src="../src/assets/home6.jpg"
+    src={home6}
     alt="Tennis 2"
     className="w-[60%] h-[450px] rounded-lg object-cover"
   />
@@ -71,7 +76,7 @@ const Features = () => {
     <div className="grid md:grid-cols-3 gap-6">
  
       <div className="relative overflow-hidden rounded-lg group">
-        <img src="../src/assets/home7.jpg" alt="Academy" className="w-full h-64 object-cover group-hover:scale-105 transition" />
+        <img src={home7} alt="Academy" className="w-full h-64 object-cover group-hover:scale-105 transition" />
         <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-end p-4 text-white">
           <h3 className="text-xl font-semibold">Academy</h3>
           <p className="text-sm">Get enrolled with us</p>
@@ -79,7 +84,7 @@ const Features = () => {
       </div>
 
       <div className="relative overflow-hidden rounded-lg group">
-        <img src="../src/assets/home8.png" alt="Camps" className="w-full h-64 object-cover group-hover:scale-105 transition" />
+        <img src={home8} alt="Camps" className="w-full h-64 object-cover group-hover:scale-105 transition" />
         <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-end p-4 text-white">
           <h3 className="text-xl font-semibold">Camps</h3>
           <p className="text-sm">Get enrolled with us</p>
@@ -87,7 +92,7 @@ const Features = () => {
       </div>
 
       <div className="relative overflow-hidden rounded-lg group">
-        <img src="../src/assets/home9.jpg" alt="Performance" className="w-full h-64 object-cover group-hover:scale-105 transition" />
+        <img src={home9} alt="Performance" className="w-full h-64 object-cover group-hover:scale-105 transition" />
         <div className="absolute inset-0  bg-opacity-40 flex flex-col justify-end p-4 text-white">
           <h3 className="text-xl font-semibold">Performance</h3>
           <p className="text-sm">Get enrolled with us</p>

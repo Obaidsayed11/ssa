@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 export const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ export const Navbar = () => {
             href="https://flowbite.com"
             className="flex justify-items-start space-x-3 rtl:space-x-reverse"
           >
-            <img src="../src/assets/logo.png" className="h-8 " alt="Logo" />
+            <img src={logo} className="h-8 " alt="Logo" />
           </a>
           <div className=" flex items-center space-x-6 ">
             <nav>

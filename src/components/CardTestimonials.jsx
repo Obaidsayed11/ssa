@@ -1,4 +1,9 @@
 import React from "react";
+import golf from "../assets/golf.svg";
+import home10 from "../assets/home10.png";
+import test1 from "../assets/test1.jpg";
+import test2 from "../assets/test2.jpg";
+import test3 from "../assets/test3.jpg";
 
 const CardTestimonials = () => {
   return (
@@ -23,7 +28,7 @@ const CardTestimonials = () => {
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <img
-                    src="../src/assets/golf.svg"
+                    src={golf}
                     alt="Golf Icon"
                     className="w-5 h-5"
                   />
@@ -34,7 +39,7 @@ const CardTestimonials = () => {
           </div>
           <div>
             <img
-              src="../src/assets/home10.png"
+              src={home10}
               alt="SSA Campus"
               className="w-full h-auto object-cover"
             />
@@ -58,7 +63,7 @@ const CardTestimonials = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center space-y-4">
               <img
-                src="../src/assets/test1.jpg"
+                src={test1}
                 alt="Craig Tiley"
                 className="w-full h-[500px] object-cover rounded-md"
               />
@@ -71,7 +76,7 @@ const CardTestimonials = () => {
             </div>
             <div className="text-center space-y-4">
               <img
-                src="../src/assets/test2.jpg"
+                src={test2}
                 alt="Stephen Farrow"
                 className="w-full h-[500px] object-cover rounded-md"
               />
@@ -85,7 +90,7 @@ const CardTestimonials = () => {
 
             <div className="text-center space-y-4">
               <img
-                src="../src/assets/test3.jpg"
+                src={test3}
                 alt="Cameron Pearson"
                 className="w-full h-[500px] object-cover rounded-md"
               />

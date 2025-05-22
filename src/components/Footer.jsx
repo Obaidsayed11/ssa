@@ -4,6 +4,10 @@ import footer2 from "../assets/footer2.png";
 import logo2 from "../assets/logo2.png";
 import CallIcon from "../assets/CallIcon.svg";
 import MailIcon from "../assets/Email.svg";
+import facebook from "../assets/facebook.png";
+import instagram from "../assets/instagram.png";
+import twitter from "../assets/twitter.png";
+import youtube from "../assets/youtube.png";
 
 const Footer = () => {
   return (
@@ -80,10 +84,10 @@ const Footer = () => {
       <h4 className="text-[#99B81B] font-semibold mb-2">Connect with us</h4>
       <div className="flex gap-4 text-xl text-gray-700">
     
-        <img src="../src/assets/facebook.png" alt="" />
-        <img src="../src/assets/twitter.png" alt="" />
-        <img src="../src/assets/instagram.png" alt="" />
-        <img src="../src/assets/youtube.png" alt="" />
+        <img src={facebook} alt="" />
+        <img src={twitter} alt="" />
+        <img src={instagram} alt="" />
+        <img src={youtube} alt="" />
       </div>
     </div>
   </div>

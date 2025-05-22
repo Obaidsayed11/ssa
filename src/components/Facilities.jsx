@@ -1,10 +1,15 @@
 import React from 'react'
+import fac5 from '../assets/fac5.png'
+import fac1 from '../assets/fac1.jpg'
+import fac2 from '../assets/fac2.jpg'
+import fac3 from '../assets/fac3.jpg'
+
 
 const Facilities = () => {
   return (
     <div className='relative' ><section className="bg-gradient-to-r from-blue-900 to-green-700 text-white py-16 px-6 md:px-20">
    <img
-    src="../src/assets/fac5.png"
+    src={fac5}
     alt="Facilities Artwork"
     className="absolute top-0 right-0 h-full object-contain pointer-events-none select-none mt-20"
   />
@@ -21,7 +26,7 @@ const Facilities = () => {
    <div className="relative z-10 grid md:grid-cols-2 lg:grid-cols-2 gap-8">
     <div className="space-y-3">
       <div className="relative">
-        <img src="../src/assets/fac1.jpg" alt="Tennis" className="rounded-lg w-full h-64 object-cover" />
+        <img src={fac1} alt="Tennis" className="rounded-lg w-full h-64 object-cover" />
         <button className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-70 w-12 h-12 rounded-full flex items-center justify-center text-black text-xl font-bold">▶</div>
         </button>
@@ -38,7 +43,7 @@ const Facilities = () => {
 
     <div className="space-y-3">
       <div className="relative">
-        <img src="../src/assets/fac2.jpg" alt="Accommodation" className="rounded-lg w-full h-64 object-cover" />
+        <img src={fac2} alt="Accommodation" className="rounded-lg w-full h-64 object-cover" />
         <button className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-70 w-12 h-12 rounded-full flex items-center justify-center text-black text-xl font-bold">▶</div>
         </button>
@@ -54,7 +59,7 @@ const Facilities = () => {
 
     <div className="space-y-3">
       <div className="relative">
-        <img src="../src/assets/fac3.jpg" alt="Fitness" className="rounded-lg w-full h-64 object-cover" />
+        <img src={fac3} alt="Fitness" className="rounded-lg w-full h-64 object-cover" />
         <button className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-70 w-12 h-12 rounded-full flex items-center justify-center text-black text-xl font-bold">▶</div>
         </button>

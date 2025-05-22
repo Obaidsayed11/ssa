@@ -1,5 +1,5 @@
 import React from "react";
-
+import home3 from "../assets/home3.jpg";
 const About = () => {
   return (
     <div className="w-full flex px-10 py-16 bg-white">
@@ -41,7 +41,7 @@ const About = () => {
       </div>
       <div className=" flex justify-center items-center pl-10">
         <img
-          src="../src/assets/home3.jpg"
+          src={home3}
           alt="Tennis Academy Overview"
           className="rounded-md object-cover h-[500px] w-[800px]"
         />
