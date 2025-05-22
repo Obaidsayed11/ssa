@@ -8,6 +8,7 @@ import Features from "../components/Features.jsx";
 import CardTestimonials from "../components/CardTestimonials.jsx";
 import Facilities from "../components/Facilities.jsx";
 import Footer from "../components/Footer.jsx";
+import home4 from "../assets/home4.jpg";
 const HomePage = () => {
   const { data, isLoading, error } = useGetHomePageQuery();
 
@@ -57,7 +58,7 @@ const HomePage = () => {
       <div className="relative w-full h-[400px]">
         {/* Background Image */}
         <img
-          src="../src/assets/home4.jpg"
+          src={home4}
           alt="Background"
           className="w-full h-full object-cover"
         />

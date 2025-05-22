@@ -3,6 +3,7 @@ import fac5 from '../assets/fac5.png'
 import fac1 from '../assets/fac1.jpg'
 import fac2 from '../assets/fac2.jpg'
 import fac3 from '../assets/fac3.jpg'
+import fac4 from '../assets/fac4.jpg'
 
 
 const Facilities = () => {
@@ -76,7 +77,7 @@ const Facilities = () => {
 
     <div className="space-y-3">
       <div className="relative">
-        <img src="../src/assets/fac4.jpg" alt="Recovery" className="rounded-lg w-full h-64 object-cover" />
+        <img src={fac4} alt="Recovery" className="rounded-lg w-full h-64 object-cover" />
         <button className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-70 w-12 h-12 rounded-full flex items-center justify-center text-black text-xl font-bold">▶</div>
         </button>
